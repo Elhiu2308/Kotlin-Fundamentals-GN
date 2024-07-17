@@ -166,6 +166,31 @@ Crea dos interfaces Nadador y Corredor con métodos nadar() y correr() respectiv
 
 [Ejercicio 06](app/src/main/java/sesion04/postwork/Ejercicio06.kt)
 
+## Ejercicios de Programación Funcional en Kotlin
+
+### 1. Funciones Literales
+* Ejercicio 1: Crea una función literal que calcule el cuadrado de un número y úsala para calcular el cuadrado de 5
+
+* Ejercicio 2:  Uso simple de una función literal: Utiliza la función literal filter para obtener una lista de números pares de una lista dada.
+
+### 2. Funciones de Orden Superior
+* Ejercicio 1: Crea una función de orden superior llamada aplicarOperacion que tome dos números y una función, y aplique esa función a los números. 
+
+* Ejercicio 2: Crea una función de orden superior llamada transformarLista que tome una lista de números enteros y una función de transformación.
+La función debe aplicar la transformación a cada elemento de la lista y devolver una nueva lista con los resultados.
+
+### 3. Inline Functions
+
+### 4. Filter y Map
+Crea una función que tome una lista de temperaturas en Celsius y las convierta a Fahrenheit. Luego, en la función main, crea una lista de temperaturas en Celsius, aplica la conversión, e imprime los resultados.
+
+### 5. Partition 
+* Ejercicio 1: Vamos a trabajar con una lista de números y usaremos partition para separar los números pares de los impares.n a cada elemento de la lista y devolver una nueva lista con los resultados.
+
+* Ejercicio 2 : Vamos a trabajar con una lista de precios y usaremos partition para aumentar el IVA a cada elemento de la lista y devolver una nueva lista con los resultados.
+ 
+### 6. Reduce y ForEach
+
 
 
 

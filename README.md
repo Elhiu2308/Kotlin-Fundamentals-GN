@@ -10,7 +10,7 @@ Declara variables para representar la información de un producto:
 * Disponible en inventario (Boolean)
 * Código de producto (String) Imprime todas las variables.
 
-[Ejercicio 01]([app/src/main/java/com/example/practica](https://github.com/Elhiu2308/Kotlin-Fundamentals-GN/blob/gh-pages/app/src/main/java/sesion01/postwork/Ejercicio01.kt)
+[Ejercicio 01](app/src/main/java/sesion01/postwork/Ejercicio01.kt)
 
 ### Ejercicio 2: Operaciones Aritméticas
 Crea dos variables numéricas y realiza las siguientes operaciones:

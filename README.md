@@ -188,7 +188,6 @@ Crea dos interfaces Nadador y Corredor con métodos nadar() y correr() respectiv
 
 
 
-
 ## SESION 05
 
 ## Ejercicios de Programación Funcional en Kotlin
@@ -196,25 +195,50 @@ Crea dos interfaces Nadador y Corredor con métodos nadar() y correr() respectiv
 ### 1. Funciones Literales
 * Ejercicio 1: Crea una función literal que calcule el cuadrado de un número y úsala para calcular el cuadrado de 5
 
+[Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio01.kt)
+
 * Ejercicio 2:  Uso simple de una función literal: Utiliza la función literal filter para obtener una lista de números pares de una lista dada.
 
+[Ejercicio 02](app/src/main/java/sesion05/postwork/Ejercicio02.kt)
+
+
 ### 2. Funciones de Orden Superior
-* Ejercicio 1: Crea una función de orden superior llamada aplicarOperacion que tome dos números y una función, y aplique esa función a los números. 
+* Ejercicio 1: Crea una función de orden superior llamada aplicarOperacion que tome dos números y una función, y aplique esa función a los números.
+
+[Ejercicio 0]1(app/src/main/java/sesion05/postwork/Ejercicio03.kt)
 
 * Ejercicio 2: Crea una función de orden superior llamada transformarLista que tome una lista de números enteros y una función de transformación.
 La función debe aplicar la transformación a cada elemento de la lista y devolver una nueva lista con los resultados.
 
+[Ejercicio 02](app/src/main/java/sesion05/postwork/Ejercicio04.kt)
+
 ### 3. Inline Functions
+
+* Crea una función inline que tome una lambda como parámetro y la ejecute dentro de un bloque try-catch.
+  Luego, usa esta función para ejecutar una operación que podría lanzar una excepción.
+
+  [Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio08.kt)
 
 ### 4. Filter y Map
 Crea una función que tome una lista de temperaturas en Celsius y las convierta a Fahrenheit. Luego, en la función main, crea una lista de temperaturas en Celsius, aplica la conversión, e imprime los resultados.
 
+[Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio07.kt)
+
 ### 5. Partition 
 * Ejercicio 1: Vamos a trabajar con una lista de números y usaremos partition para separar los números pares de los impares.n a cada elemento de la lista y devolver una nueva lista con los resultados.
 
+ [Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio05.kt)
+
 * Ejercicio 2 : Vamos a trabajar con una lista de precios y usaremos partition para aumentar el IVA a cada elemento de la lista y devolver una nueva lista con los resultados.
- 
+
+[Ejercicio 02](app/src/main/java/sesion05/postwork/Ejercicio06.kt)
+
 ### 6. Reduce y ForEach
+
+* Crea una lista de números decimales que representen precios.
+Utiliza reduce para calcular el total de los precios. Luego, usa forEach para imprimir cada precio con un formato específico (por ejemplo, con dos decimales y el símbolo de moneda).
+
+[Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio09.kt)
 
 
 

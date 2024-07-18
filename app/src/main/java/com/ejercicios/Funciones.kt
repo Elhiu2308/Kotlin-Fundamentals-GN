@@ -68,4 +68,91 @@ Veamos un ejemplo básico de cómo declarar una lambda almacenada en la variable
 ////}
 
 
-inline fun operacionMate(a: Int, b: Int, operacion: (Int, Int) -> Int)
+//
+//inline fun operacionMat(a: Int, b:Int, operacion: (Int, Int)->Int): Int{
+//    return operacion(a,b)
+//}
+//
+//fun main ()
+//val resultado = operacionMat(5,3){x,y -> x + y}
+//println(resultados)
+//
+//}
+
+/**PARTITION*/
+//fun main(){
+//    val calificaciones = listOf(10,6,4,8,5,2,8,9,4,3,6,7,9,10,10,10)
+//    val (notasAprobadas, notasReprobadas) =calificaciones.partition { it >= 6 }
+//
+//    println("Notas aprobadas :$notasAprobadas")
+//    println("Notas reprobadas :$notasReprobadas")
+//}
+
+/**MAP*/
+//fun main(){
+//    val preciosLibres = setOf(1024.6, 2488.0, 8224.33)
+//    val preciosFinales = preciosLibres.map { it * 1.16 }
+//
+//    println("Precios con IVA: $preciosFinales")
+//}
+
+
+
+
+
+/** NULL SAFETY*/
+
+//fun main(){
+//    var nombre: String? = "Juan"
+//    println(nombre?.length)
+//
+//    nombre = null
+//    println(nombre?.length)
+//
+//    val longitud = nombre?.length ?: 0 // ?: Operador elvis
+//    println(longitud)
+//}
+
+
+/** Exceptions y Manejo de errores (try y catch) */
+
+//fun main (){
+//    try{
+//        val resultado = 10 / 0
+//        println(resultado)
+//    } catch (e:ArithmeticException) {
+//        println("Error: División por cero")
+//    } finally {
+//        println("Operación finalizada")
+//    }
+//}
+
+/** UNSAFE CAST Y SAFE CAST*/
+
+//fun main (){
+//    val objeto:  Any = "Hola"
+//
+//    //Unsafe Cast
+//    val texto1 = objeto as String
+//    println(texto1.length)
+//
+//    //Safe Cast
+//    val numero = objeto as? Int
+//    println(numero)
+//}
+
+
+//
+
+fun main () {
+    val objeto: Any = 123
+    try{
+        val texto1 = objeto as String
+        println(texto1.length)
+    } catch (e: ClassCastException){
+        println("Error: No se pudo convertir objeto a String")
+    }
+    val numero = objeto as? Int
+    println(numero)
+}
+

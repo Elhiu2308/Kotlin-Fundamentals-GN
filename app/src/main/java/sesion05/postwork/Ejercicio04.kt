@@ -1,7 +1,7 @@
 package sesion05.postwork
 
 /**
-ejercicio 4:
+Ejercicio 4:
 Crea una función de orden superior llamada transformarLista que tome una lista de números enteros y una función de transformación.
 La función debe aplicar la transformación a cada elemento de la lista y devolver una nueva lista con los resultados.
  * */

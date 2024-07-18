@@ -1,5 +1,7 @@
 # KOTLIN-FUNDAMENTALS-GN
 
+## SESION 01
+
 ## Ejercicios de Práctica en Kotlin
 
 ### Ejercicio 1: Declaración de Variables
@@ -67,6 +69,11 @@ Crea variables para el peso (en kg) y la altura (en metros) de una persona. Calc
 
 [Ejercicio 10](app/src/main/java/sesion01/postwork/Ejercicio10.kt)
 
+
+
+
+## SESION 02
+
 ## Ejercicios de Kotlin: Funciones, Condicionales, Ciclos y Estructuras de Datos
 
 ### Ejercicio 1: Calculadora de volumen de cilindro
@@ -104,6 +111,12 @@ Crea un mapa de sinónimos y una función para obtener sinónimos de una palabra
 
 [Ejercicio 07](app/src/main/java/sesion02/postwork/Ejercicio07.kt)
 
+
+
+
+
+## SESION 03
+
 ## Ejercicios de Kotlin: Clases, Objetos y Constructores
 
 ### Ejercicio 1: Clase Libro
@@ -136,6 +149,12 @@ Define una clase Persona con propiedades nombre y edad. Luego, crea un método d
 
 [Ejercicio 06](app/src/main/java/sesion03/postwork/Ejercicio06.kt)
 
+
+
+
+
+## SESION 04
+
 ## 1. Herencia y Polimorfismo
 Crea una clase base Animal con un método hacerSonido(). Luego, crea dos clases derivadas Perro y Gato que hereden de Animal y sobrescriban el método hacerSonido(). Finalmente, crea una función que reciba un Animal y llame a su método hacerSonido().
 
@@ -165,6 +184,12 @@ Crea una clase Contador con un companion object que mantenga un contador global 
 Crea dos interfaces Nadador y Corredor con métodos nadar() y correr() respectivamente. Luego, crea una clase Triatleta que implemente ambas interfaces. Finalmente, crea una función que reciba un objeto y verifique si puede nadar, correr o ambos.
 
 [Ejercicio 06](app/src/main/java/sesion04/postwork/Ejercicio06.kt)
+
+
+
+
+
+## SESION 05
 
 ## Ejercicios de Programación Funcional en Kotlin
 

@@ -217,7 +217,7 @@ La función debe aplicar la transformación a cada elemento de la lista y devolv
 * Crea una función inline que tome una lambda como parámetro y la ejecute dentro de un bloque try-catch.
   Luego, usa esta función para ejecutar una operación que podría lanzar una excepción.
 
-  [Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio08.kt)
+[Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio08.kt)
 
 ### 4. Filter y Map
 Crea una función que tome una lista de temperaturas en Celsius y las convierta a Fahrenheit. Luego, en la función main, crea una lista de temperaturas en Celsius, aplica la conversión, e imprime los resultados.
@@ -227,7 +227,7 @@ Crea una función que tome una lista de temperaturas en Celsius y las convierta 
 ### 5. Partition 
 * Ejercicio 1: Vamos a trabajar con una lista de números y usaremos partition para separar los números pares de los impares.n a cada elemento de la lista y devolver una nueva lista con los resultados.
 
- [Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio05.kt)
+[Ejercicio 01](app/src/main/java/sesion05/postwork/Ejercicio05.kt)
 
 * Ejercicio 2 : Vamos a trabajar con una lista de precios y usaremos partition para aumentar el IVA a cada elemento de la lista y devolver una nueva lista con los resultados.
 
